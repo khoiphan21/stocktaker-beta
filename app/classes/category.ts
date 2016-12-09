@@ -9,13 +9,13 @@ export class Category {
         return this._name;
     }
     set changeName(name: String) {
-        this._name = value;
+        this._name = name;
     }
     get getSection(): Section {
         return this._section;
     }
     set changeSection(section: Section) {
-        this._section = value;
+        this._section = section;
     }
 
     delete() {
